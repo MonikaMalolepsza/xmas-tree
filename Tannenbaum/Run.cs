@@ -33,6 +33,7 @@ partial class main
                     Console.WriteLine("Geben Sie bitte die Höhe an:");
                     input = Console.ReadLine();
                     height = Convert.ToInt32(input);
+                    
                     if (height >= 1)
                     {
                         if (height <= 22)
@@ -49,21 +50,19 @@ partial class main
                         done = false;
                     }
                 } while (!done);
-
-                for (int i = 1; i < height; i++)
+                Console.Clear();
+                for (int i = 1; i <= height*2; i=i+2)
                 {
-                    string empty = " ";
                     string starsRight = new string('\u2605', i);
-                    Console.SetCursorPosition((Console.WindowWidth - starsRight.Length) / 2, Console.CursorTop);
-                    Console.WriteLine(starsRight + empty);
+                    Console.SetCursorPosition((Console.WindowWidth - i) / 2, (i+1)/2);
+                    Console.WriteLine(starsRight);
                 }
-
-                for (int t = 0; t < 2; t++)
-                {
-                    string trunk = new string('\u2605', 4);
-                    Console.SetCursorPosition((Console.WindowWidth - trunk.Length) / 2, Console.CursorTop);
+                
+                    string trunk = new string('\u2605', 1);
+                    Console.SetCursorPosition((Console.WindowWidth - 1) / 2, height+1);
                     Console.WriteLine(trunk);
-                }
+                    Console.SetCursorPosition((Console.WindowWidth - 1) / 2, height+2);
+                    Console.WriteLine(trunk);
 
             }
         }
