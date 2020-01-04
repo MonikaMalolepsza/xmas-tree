@@ -1,0 +1,6 @@
+/Users/monika/Projects/c#/xmas-tree/Tannenbaum/bin/Debug/Tannenbaum.exe.config
+/Users/monika/Projects/c#/xmas-tree/Tannenbaum/bin/Debug/Tannenbaum.exe
+/Users/monika/Projects/c#/xmas-tree/Tannenbaum/bin/Debug/Tannenbaum.pdb
+/Users/monika/Projects/c#/xmas-tree/Tannenbaum/obj/Debug/Tannenbaum.csprojAssemblyReference.cache
+/Users/monika/Projects/c#/xmas-tree/Tannenbaum/obj/Debug/Tannenbaum.exe
+/Users/monika/Projects/c#/xmas-tree/Tannenbaum/obj/Debug/Tannenbaum.pdb
